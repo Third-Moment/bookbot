@@ -21,7 +21,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "go install github.com/bootdotdev/bootdev@latest"
+	"postCreateCommand": "go install github.com/bootdotdev/bootdev@latest && bootdev login"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
